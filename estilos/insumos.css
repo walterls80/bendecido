@@ -1,19 +1,61 @@
 @charset "UTF-8";
 nav {
-    background-color: azure;
-    height: 325px;
+    background-color: rgb(254, 233, 233);
+    height: 310px;
     border-radius: 10px;
     margin: 5px;
-    padding: 0px;
+    padding: 5px;
     text-align: center;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
     max-width: 600px;
 }
+form { 
+    
+    /*background-color: orange;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*width: 190px;*/
+    padding: 5px;
+    
+}
 
+p {
+    font-size: 1.2em;
+    display: flex ;
+    flex-direction: column;
+    margin: 3px;
+}
 
+div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;  
+}
 
+form input, form textarea {
+    padding: 5px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.628);  
+}
 
+form>div>input {
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 40px;
+    background-color: #ffffff;
+}
 
+form>div>input:hover {
+    background-color: #f6c342;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #f6da94;
+}
 
 footer {
     background-color: black;
